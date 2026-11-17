@@ -64,9 +64,9 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-AlphaESS provides battery energy storage systems and cloud monitoring solutions for residential, commercial, and utility‑scale applications. Operating in over 140 countries, the company offers a range of products including modular battery packs, EV chargers, and balcony solar systems, all integrated with the AlphaCloud platform for real‑time performance tracking and management. AlphaESS aims to enable clean energy independence, reduce utility costs, and support global decarbonisation efforts.
+AlphaESS provides battery energy storage solutions for residential, commercial, and utility-scale applications. Their product lineup includes modular battery packs, EV chargers, and solar integration systems, managed through the AlphaCloud monitoring platform. The company emphasizes renewable energy adoption, offering customizable storage capacities and professional support to help customers optimize energy use and reduce reliance on the grid.
 
-**Areas:** Company · Energy · Battery · Storage · CleanTech
+**Areas:** Company · Energy · Storage · Battery · Renewable
 
 ## AlphaESS on APIs.io
 
@@ -74,7 +74,7 @@ Everything profiled for AlphaESS is published on APIs.io rather than in this rep
 
 ### APIs (1)
 
-- [AlphaESS API](https://apis.io/apis/alpha-ess/alphaess-api/) — AlphaESS provides a cloud monitoring API for its battery storage systems. Documentation is available at the developer portal.
+- [AlphaESS GraphQL API](https://apis.io/apis/alpha-ess/alphaess-graphql-api/) — GraphQL API providing access to AlphaESS data and operations.
 
 ### Published properties
 
@@ -91,32 +91,32 @@ Authentication, trust centre, and vulnerability disclosure.
 Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
 
 - [Website](https://alphaess.com/)
-- [Documentation](https://www.alphaess.com/)
+- [Documentation](https://dev.alphaess.com/)
 - [Getting started](https://docs.alphaess.com/apps/alphaess-app/index)
 - [Blog](https://www.alphaess.com/blog)
 - [Privacy policy](https://www.alphaess.com/privacy-policy)
 
 ## API Evangelist rating
 
-**Kin Score 12.7** — emerging · rubric 0.28.0 · scored 2026-11-17
+**Kin Score 14.7** — emerging · rubric 0.27.0 · scored 2026-11-17
 
 | Facet | Score |
 |---|---|
-| Discoverability | 55.4 |
+| Discoverability | 64.3 |
 | Contract quality | 0.0 |
 | Contract governance | 0.0 |
 | Operational transparency | 0.0 |
 | Developer ergonomics | 31.0 |
-| Access clarity | 8.5 |
+| Access clarity | 10.5 |
 
-**Agent readiness 22.7** — agent-aware
+**Agent readiness 22.5** — agent-aware
 
 | Agent-readiness dimension | Result |
 |---|---|
 | Spec Presence | — |
 | Agentic Access | — |
 | Reversibility Documented | — |
-| MCP Server | documented (partial credit) |
+| MCP Server | — |
 | Auth Clarity | served (partial credit) |
 | Idempotency | — |
 | Error Semantics | — |
@@ -124,7 +124,7 @@ Links to the company's own pages. This repository publishes no copy of their spe
 | Rate Limit Signal | — |
 | Event Surface Described | — |
 | Agent Skills | — |
-| Well Known Catalog | — |
+| Well Known Catalog | yes |
 | Consent Identity | — |
 | Agent Card | — |
 | Dry Run Mode | — |
@@ -136,7 +136,7 @@ Links to the company's own pages. This repository publishes no copy of their spe
 | Operation Distinctiveness | na |
 | MCP Tool Quality | na |
 
-**Regulatory alignment 8.2** — Energy & Utilities
+**Regulatory alignment 13.1** — Energy & Utilities
 
 The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/alpha-ess/](https://apis.io/providers/alpha-ess/).
 
